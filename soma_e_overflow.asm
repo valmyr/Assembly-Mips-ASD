@@ -1,4 +1,4 @@
-;Implemente uma sub-rotina em Assembly mips com dados de 8 bits que faça a soma com sinal de dois números e guarde o resultad em $3. $4 deve conter 1 se ocorrer oveflow e zero c.c.
+;Implemente uma sub-rotina em Assembly mips com dados de 8 bits que faça a soma com sinal de dois números e guarde o resultado em $3. $4 deve conter 1 se ocorrer overflow e zero c.c.
 addi $s1, $zero, 10
 addi $s2, $zero, 255
 ; entradas
