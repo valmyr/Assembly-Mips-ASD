@@ -11,7 +11,7 @@ and  $s4, $s3, $s1      ; $s4 máscara. retorna 1 se o valor do número em $s1[i
 beq  $s4, $s0, p        ;caso o que estiver em $4 for 1 incremento à saída. c.c pula para p
 addi $s2, $s2, 1
 loop:
-slt $s5, $s3, $s1       ;condição de parada. se o npumero de deslocamento for maior que a entrada 
+slt $s5, $s3, $s1       ;condição de parada. se o número de deslocamento for maior que a entrada 
 beq  $s5, $s0, finish   ; pule para finish
 sll $s3,$s3,1           ;deslocar 1 bit à esquerda
 and $s4,$s3,$s1         ;aplicação da máscara de bits
