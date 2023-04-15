@@ -1,4 +1,4 @@
-;Implemente uma subrotina eem Assembly Mips que realize a contagem de bits 1s em um número de 32bits.
+;Implemente uma sub-rotina eem Assembly Mips que realize a contagem de bits 1s em um número de 32bits.
 
 ;entrada em $1 saída em $2
 
